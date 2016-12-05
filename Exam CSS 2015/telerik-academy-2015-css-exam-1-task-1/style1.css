@@ -1,0 +1,32 @@
+body, div, ul,li,span img{
+  margin:0px;
+  padding: 0px
+}
+body{
+  font-family: Times New Roman;
+  font-size: 16px;
+}
+
+body div#root{
+  width: 623px;
+  margin: 0px, auto;
+
+}
+
+body div ul li{
+  display: inline-block;
+
+}
+
+.avenger{
+  border: 2px solid black;
+}
+
+.preview img{
+  width: 400px;
+  display: none;
+}
+
+div ul li .name:hover img{
+  display:block;
+}

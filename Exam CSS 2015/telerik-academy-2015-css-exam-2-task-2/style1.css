@@ -1,0 +1,88 @@
+body, header, div, ul, main, p, foter {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 1000px;
+    margin-left: 12px;
+}
+
+body #header {
+    width: 1000px;
+    background: blue;
+    height: 35px;
+}
+
+input[type=search] {
+    float: right;
+    margin: 6px 5px;
+    width: 200px;
+    height: 23px border: grey;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    padding: 5px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    text margin-bottom: 8px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+#main img {
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.clear {
+    clear: both;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#main p a {
+    text-decoration: none;
+    color: red;
+}
+
+#footer {
+    height: 60px;
+    width: 1000px;
+    background: blue;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+p code{
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.copyright a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    text-transform: capitalize;
+    color: white;
+    text-decoration: underline;
+}

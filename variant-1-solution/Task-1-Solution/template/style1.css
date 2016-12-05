@@ -1,0 +1,76 @@
+html, body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+div#wrapper header {
+    background-image: url("./images/header-bg.png");
+    color: #575E7A;
+    padding: 18px;
+}
+
+div#wrapper header h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+}
+
+div#wrapper header ul {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 2px;
+}
+
+div#wrapper header ul li {
+    display: inline;
+    font-size: 14px;
+    padding-left: 22px;
+}
+
+.clear {
+    clear: both;
+}
+
+#searchBar {
+    height: 35px;
+    background: #000000;
+    padding: 9px;
+    box-sizing: border-box;
+}
+
+#searchBar a {
+    display: inline-block;
+    color: #A0B9C6;
+    text-decoration: none;
+		font-size: 14px;
+}
+
+#searchBar #archives a:before {
+    content: "/ "
+}
+
+#archives {
+    float: left;
+}
+
+#search {
+    float: right;
+}
+
+h1 {
+    color: #575E5B;
+    font-size: 24px;
+}
+
+article p{
+	font-size: 14px;
+}
