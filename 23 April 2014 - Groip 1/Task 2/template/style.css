@@ -1,0 +1,105 @@
+html, body, ul, li,a{
+    margin:0;
+    padding: 0px;
+}
+div#wrapper{
+    padding:7px;
+}
+hhtml, body{
+    width:960px;
+    font-family: Courier New, Courier, monospace;
+    font-size:16px;
+}
+
+div#wrapper ul.menu{
+    list-style: none;
+    vertical-align: middle;
+}
+
+div#wrapper ul.menu>li{
+    float:left;
+    vertical-align: middle;
+    margin-right:10px;
+    position: relative
+}
+
+ul.menu>li>a{
+    display: inline-block;
+    padding-left: 21px;
+    padding-right:21px;
+    padding-top:11px;
+    padding-bottom: 9px;
+    border:1px solid black;
+    border-radius:10px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    color:#0000FF;
+    background: rgb(37,221,242);
+    background: -moz-linear-gradient(top,  rgba(37,221,242,1) 0%, rgba(121,148,226,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(37,221,242,1) 0%,rgba(121,148,226,1) 100%);
+    background: linear-gradient(to bottom,  rgba(37,221,242,1) 0%,rgba(121,148,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25ddf2', endColorstr='#7994e2',GradientType=0 );
+}
+
+.content ul li a{
+    border:none;
+    background-color:inherit;
+}
+
+.content{
+    width:auto;
+    position: absolute;
+    margin-left:20px;
+    top:30px;
+    border:1px solid black;
+    border-radius: 10px;
+    padding-left:21px;
+    padding-right:21px;
+    padding-top:34px;
+    padding-bottom:28px;
+    display:none;
+    background: rgb(254,255,255);
+    background: -moz-linear-gradient(top,  rgba(254,255,255,1) 0%, rgba(160,216,239,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(160,216,239,1) 100%);
+    background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(160,216,239,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 );
+}
+
+.content h3{
+    text-decoration: underline;
+}
+
+.content p a{
+    text-decoration: none;
+    color:#0000FF;
+}
+
+.content ul{
+    list-style: square;
+}
+
+.content ul a{
+    list-style: square;
+    text-decoration: none;
+     color:#0000FF;
+}
+
+.content ul a:hover{
+    text-decoration: underline;
+}
+
+.menu li a:hover {
+    position: relative;
+    font-size: 1.25em;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.menu li a:hover +div{
+    display:block;
+}
+
+span.bold{
+    font-weight: bold;
+}

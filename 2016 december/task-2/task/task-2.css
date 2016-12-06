@@ -1,0 +1,60 @@
+body, div, ul, li, span, p, img {
+    margin: 0px;
+    padding: 0px
+}
+.container{
+  width: 900px;
+  margin: 0 auto;
+  background: #26292C;
+  padding: 10px;
+  color: white;
+}
+
+.navigation{
+  width: 200px;
+  background: #3C3C3C;
+  border:1px solid #544B4B;
+  float:right;
+  padding: 10px;
+  color:#BFBFBF;
+
+}
+
+.nav-tabs{
+  list-style-type: none;
+}
+
+ul.index li{
+  width: 180px;
+  background: #3C3C3C;
+  border:1px solid #544B4B;
+  display: none;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.File:hover +.index{
+  display: block;
+}
+
+
+.selector{
+  color: #66C60E;
+}
+
+.punctuation{
+  color: #C4C47D;
+}
+
+.property{
+  color: #5FD8F0;
+}
+
+li:hover{
+  background: #4C5354;
+}
+
+.selector:hover{
+  font-weight: bolder;
+  text-decoration: underline;
+}

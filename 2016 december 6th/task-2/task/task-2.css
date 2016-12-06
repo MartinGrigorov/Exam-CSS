@@ -1,0 +1,111 @@
+div, ol, li, a, span{
+    margin: 0px;
+    padding: 0px
+}*
+
+.container {
+
+    margin-left: 30px
+}
+
+.breadcrumbs li {
+    display: inline-block;
+}
+
+.breadcrumbs li a {
+    text-decoration: none;
+    color: blue;
+}
+.breadcrumbs li a:hover{
+  text-decoration: underline;
+}
+
+.breadcrumbs li a:after {
+    content: "/"
+}
+
+
+.container a:nth-child(6){
+  color:black;
+
+}
+
+.code-header {
+    width: 800px;
+    border: 1px solid grey;
+    background: #F7F7F7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 15px;
+    height: 60px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.file-info {
+    display: inline;
+    margin-left: 15px;
+}
+
+.lines:after {
+    content: " |";
+}
+
+.controls {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.controls a {
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 10px;
+    background: white;
+    margin-right:-5px;
+    text-decoration: none;
+}
+
+.controls a:hover {
+    background:#CAD6D9;
+}
+
+.github-btn:nth-child(1){
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.github-btn:nth-child(3){
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.code-lines{
+  width: 760px;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 40px;
+
+}
+
+.file-content li{
+      border-left: 1px solid black;
+      padding-left: 10px;
+
+}
+
+.selector{
+  color: #57a213;
+}
+
+.punctuation{
+  color: #214ab4;
+}
+
+.property{
+  color: #289cb3;
+}

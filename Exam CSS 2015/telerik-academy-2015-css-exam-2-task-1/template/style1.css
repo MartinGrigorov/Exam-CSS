@@ -1,0 +1,69 @@
+body, div, ul, li, input, p, img {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.preview {
+    display: none;
+    padding-top: 35px;
+}
+
+#root {
+    width: 560px;
+    background: #205D99;
+    margin: 0px auto;
+}
+
+#root ul.avengers li {
+    text-align: center;
+    border-bottom: 3px solid #79AEE3;
+
+    padding: 20px;
+}
+
+avengers label {
+    display: block;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.avengers input:hover+label {
+    color: #aecfee;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.avengers label:hover {
+    cursor: pointer;
+}
+
+
+/*.avengers input {
+    display: none;
+}*/
+
+.avengers input:checked+label+.preview {
+    display: block;
+}
+
+.avengers .preview img {
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 15px solid #79aee3;
+    border-radius: 15px;
+    float: left;
+}
+
+.avengers .preview p {
+    text-align: justify;
+}

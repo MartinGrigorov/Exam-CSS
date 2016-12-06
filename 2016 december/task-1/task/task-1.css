@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bungee'), local('Bungee-Regular'), url(https://fonts.gstatic.com/s/bungee/v2/Qo62XTKf8oE8gIaZK99LEvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+
+body, div, span, img {
+    margin: 0px;
+    padding: 0px
+}
+
+#wrapper {
+    width: 590px;
+    border: 15px solid #EEEEEE;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin: 0 auto;
+}
+
+.article {
+    border: 1px solid #EEEEEE;
+    /*height: 625px;*/
+    box-shadow: 0px 0px 7px black;
+}
+
+.header div {
+    margin: 20px;
+}
+
+.publisher {
+    font-family: tahoma;
+    color: #a2a2a2;
+    padding: 15px;
+}
+
+.timestamp {
+    font-family: tahoma;
+    color: #a2a2a2;
+    float: right;
+}
+
+.importance {
+    font-family: 'Bungee', cursive;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 25px;
+    font-family: Tahoma;
+    color: #a2a2a2;
+    border-top: 1px solid #a2a2a2;
+    padding: 15px 0px 15px 0px;
+}
+
+.footer{
+  height: 83px;
+}
+
+.footer div {
+    display: inline-block;
+}
+
+
+.footer .likes {
+    padding-left: 50px;
+    padding-top: 15px;
+    background-image: url("./imgs/number.png");
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 44px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font: Tahoma;
+    color: #a2a2a2;
+    font-size: 16px;
+}
+
+.footer .shares {
+    padding-left: 50px;
+    padding-top: 15px;
+    background-image: url("./imgs/share.png");
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 44px;
+    margin-top: 20px;
+    font: Tahoma;
+    color: #a2a2a2;
+    font-size: 16px;
+    float: right;
+}
+
+.footer .comments {
+    padding-left: 50px;
+    padding-top: 15px;
+    background-image: url("./imgs/comment.png");
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 44px;
+    margin-top: 20px;
+    font: Tahoma;
+    color: #a2a2a2;
+    font-size: 16px;
+    float: right;
+}
