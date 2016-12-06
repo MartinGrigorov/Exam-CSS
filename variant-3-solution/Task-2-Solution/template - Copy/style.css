@@ -1,0 +1,76 @@
+body, div, ul, li, a, img {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    width: 960px;
+}
+
+#wrapper .menu>li {
+    width: 170px;
+    height: 38px;
+    padding: 10px;
+    background: #B6FF00;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    list-style-type: none;
+}
+
+.menu li a {
+    margin-top: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    display: none;
+}
+
+#wrapper .menu li:hover .content {
+    display: block;
+}
+
+
+
+.content .sub-menu {
+    position: absolute;
+    top: 0px;
+    left: 170px;
+}
+
+.menu li .content .sub-menu li {
+    width: 500px;
+    background-color: green;
+    text-align: left;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    list-style-type: none;
+}
+
+
+
+
+.menu li .content .sub-menu li>a {
+    color: white;
+}
+
+.menu li .content .sub-menu li a:hover +img {
+    display: block;
+}
+
+.menu li .content .sub-menu li img {
+    display: none;
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
